@@ -9,7 +9,6 @@ const Navbar = () => {
       <NavLink id='features' text='Features' />
       <NavLink id='support' text='Support Us' />
       <NavLink id='get_started' text='Get Started' />
-      <NavLink id='contact' text='Contact Us' />
     </div>
   );
 };

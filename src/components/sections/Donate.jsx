@@ -23,12 +23,27 @@ const Donate = () => {
             making a donation to support its development. We appreciate your
             support and will use it to keep myFlock free and up-to-date.
           </p>
-          <a
-            href='#'
-            className='text-lg font-bold text-myflockPurple no-underline md:text-xl'
-          >
-            Donate here
-          </a>
+          <div className='flex flex-row items-center justify-center gap-6 align-middle'>
+            <a
+              href='https://www.buymeacoffee.com/vbdesigns'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='flex w-52 items-center justify-center rounded-md bg-myflockPurple px-4 py-2 text-sm font-medium text-white shadow-lg transition duration-300 ease-in-out hover:bg-yellow-600'
+            >
+              <span className='mr-2 text-lg'>☕</span>
+              Buy us a coffee
+            </a>
+            <p>or</p>
+            <a
+              href='https://paypal.me/vbdesigns'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='flex w-52 items-center justify-center rounded-md bg-myflockPurple px-2 py-2 text-sm font-medium text-white shadow-lg transition duration-300 ease-in-out hover:bg-yellow-600'
+            >
+              <span className='mr-2 text-lg'>💰</span>
+              Donate via PayPal
+            </a>
+          </div>
         </div>
       </div>
     </section>

@@ -48,7 +48,7 @@ const Features = () => {
           <img src='../src/assets/mockup.png' className='w-[500px]' />
         </div>
         <div className='w-full md:w-2/3 lg:w-1/2'>
-          <h2 className='text-left text-3xl font-bold leading-relaxed md:text-4xl lg:text-5xl'>
+          <h2 className='text-left text-3xl font-bold leading-normal md:text-4xl md:leading-normal lg:text-5xl lg:leading-normal'>
             Stay connected to your flock without worrying about wifi signal
           </h2>
           <div className='border-b border-x-slate-500 p-10 pl-0'>
