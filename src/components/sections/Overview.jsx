@@ -2,7 +2,10 @@ import React from 'react';
 
 const Overview = () => {
   return (
-    <section className='flex h-auto w-full flex-col items-center bg-zinc-900 px-6 py-12 lg:py-24'>
+    <section
+      id='overview'
+      className='flex h-auto w-full flex-col items-center bg-zinc-900 px-6 py-12 lg:py-24'
+    >
       <h2 className=' text-3xl font-bold leading-normal text-white md:text-4xl'>
         Designed by a shepherd for other shepherds
       </h2>

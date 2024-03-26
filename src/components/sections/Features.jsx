@@ -2,7 +2,7 @@ import React from 'react';
 
 const Features = () => {
   return (
-    <section className='mx-auto max-w-[1200px] px-8'>
+    <section id='features' className='mx-auto max-w-[1200px] px-8'>
       <section className='flex flex-col items-center pt-20'>
         <h2 className='w-full text-center text-3xl font-bold leading-relaxed md:w-3/4 md:text-4xl lg:w-1/2'>
           No more searching for the right app to keep track of your flock
@@ -47,7 +47,7 @@ const Features = () => {
         <div className='flex w-full justify-center md:w-1/2'>
           <img src='../src/assets/mockup.png' className='w-[500px]' />
         </div>
-        <div className='w-full md:w-2/3 lg:w-1/2'>
+        <div className='flex w-full flex-col items-center md:w-2/3 md:px-0 lg:w-1/2'>
           <h2 className='text-left text-3xl font-bold leading-normal md:text-4xl md:leading-normal lg:text-5xl lg:leading-normal'>
             Stay connected to your flock without worrying about wifi signal
           </h2>
@@ -55,7 +55,7 @@ const Features = () => {
             <h3 className='text-lg font-bold leading-relaxed md:text-xl'>
               All data is stored on your device
             </h3>
-            <p classname='text-lg md:text-xl leading-relaxed'>
+            <p className='text-lg leading-relaxed md:text-xl'>
               Access your flock data anytime, anywhere, even without an internet
               connection. Record and manage important information on your
               pasture without worrying about wifi connection.
@@ -65,7 +65,7 @@ const Features = () => {
             <h3 className='text-lg font-bold leading-relaxed md:text-xl'>
               Data can be backed anywhere any time
             </h3>
-            <p classname='text-lg md:text-xl leading-relaxed'>
+            <p className='text-lg leading-relaxed md:text-xl'>
               Easily create backups of your data to a different location on your
               device or to the cloud. Restore your data whenever you switch
               devices.
@@ -75,7 +75,7 @@ const Features = () => {
             <h3 className='text-lg font-bold leading-relaxed md:text-xl'>
               Data can be exported to PDF
             </h3>
-            <p classname='text-lg md:text-xl leading-relaxed'>
+            <p className='text-lg leading-relaxed md:text-xl'>
               Generate physical copies of your sheep records for extra backup or
               sales reports.
             </p>

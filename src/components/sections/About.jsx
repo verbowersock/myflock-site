@@ -3,9 +3,12 @@ import DownloadButton from '../elements/DownloadButton';
 
 const About = () => {
   return (
-    <section className='lg:h-140 relative flex h-200 flex-col overflow-hidden px-6 lg:flex-row xl:pl-20'>
+    <section
+      id='about'
+      className='lg:h-140 relative flex h-200 flex-col overflow-hidden px-6 lg:flex-row xl:pl-20'
+    >
       <div className='pt-16 lg:w-1/2 lg:pt-20 xl:w-2/5 xl:pl-20'>
-        <h2 className='text-4xl font-bold leading-12 lg:text-6xl lg:leading-tight'>
+        <h2 className='text-4xl font-bold leading-12 lg:text-5xl lg:leading-tight'>
           myFlock is a free and easy to use app for hobby shepherds
         </h2>
 
