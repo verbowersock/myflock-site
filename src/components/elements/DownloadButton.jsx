@@ -2,7 +2,11 @@ import React from 'react';
 
 const DownloadButton = () => {
   return (
-    <div>
+    <a
+      href='https://play.google.com/store/apps/details?id=com.sheeprn&hl=en_US&gl=US'
+      target='_blank'
+      rel='noopener noreferrer'
+    >
       <button
         className={`flex flex-row items-center rounded-md border-none bg-myflockPurple px-4 py-6 font-bold text-white transition-all duration-200 ease-in-out hover:bg-myflockBrown focus:outline-none`}
       >
@@ -13,7 +17,7 @@ const DownloadButton = () => {
         />
         Download for Android
       </button>
-    </div>
+    </a>
   );
 };
 
