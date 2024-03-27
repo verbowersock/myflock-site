@@ -26,28 +26,18 @@ const About = () => {
       >
         <div className='flex w-full flex-col space-y-6'>
           <img
-            src='../src/assets/screenshot1.png'
+            src='./assets/screenshot1.png'
             className='mt-20'
             alt='myflock app screnshot'
           />
         </div>
         <div className='flex  w-full flex-col space-y-6 '>
-          <img src='../src/assets/sheep2.jpg' alt='sheep photo' />
-          <img
-            src='../src/assets/screenshot2.png'
-            alt='myflock app screnshot'
-          />
+          <img src='./assets/sheep2.jpg' alt='sheep photo' />
+          <img src='./assets/screenshot2.png' alt='myflock app screnshot' />
         </div>
         <div className='w-full flex-col space-y-6'>
-          <img
-            src='../src/assets/sheep1.jpg'
-            className='mt-14'
-            alt='sheep photo'
-          />
-          <img
-            src='../src/assets/screenshot3.png'
-            alt='myflock app screnshot'
-          />
+          <img src='./assets/sheep1.jpg' className='mt-14' alt='sheep photo' />
+          <img src='./assets/screenshot3.png' alt='myflock app screnshot' />
         </div>
       </div>
     </section>

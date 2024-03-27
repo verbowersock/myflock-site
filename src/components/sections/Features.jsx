@@ -46,7 +46,7 @@ const Features = () => {
       <section className='flex w-full flex-col-reverse items-center justify-between gap-6 pt-20 lg:flex-row'>
         <div className='flex w-full justify-center md:w-1/2'>
           <img
-            src='../src/assets/mockup.png'
+            src='./assets/mockup.png'
             className='w-[500px]'
             alt='myflock app mockup'
           />

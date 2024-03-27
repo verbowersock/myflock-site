@@ -9,7 +9,7 @@ const Donate = () => {
       <div className='flex flex-col-reverse items-center  gap-8 lg:flex-row lg:gap-32'>
         <div className='flex flex-1 justify-center'>
           <img
-            src='../src/assets/donate.jpg'
+            src='./assets/donate.jpg'
             className=' max-w-sm sm:max-w-md'
             alt='Sheep in a field'
           />

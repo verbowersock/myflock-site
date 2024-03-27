@@ -10,7 +10,7 @@ const Overview = () => {
         Designed by a shepherd for other shepherds
       </h2>
       <img
-        src='../src/assets/sheep3.jpg'
+        src='./assets/sheep3.jpg'
         className='w-full self-center py-12 lg:w-3/5 lg:py-24'
         alt='happy sheep photo'
       />

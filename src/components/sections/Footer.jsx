@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className='flex min-h-48 w-full flex-col items-center justify-between bg-black px-8 py-8 text-white md:flex-row md:px-32'>
       <div className='flex flex-col items-center align-middle'>
         <img
-          src='../src/assets/invertedVBDLogo.png'
+          src='./assets/invertedVBDLogo.png'
           className='w-32 self-center'
           alt='VBDesigns logo'
         />
