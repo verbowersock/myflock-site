@@ -1,13 +1,5 @@
 import React from 'react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faFacebook,
-  faXTwitter,
-  faLinkedin,
-  faPinterest,
-} from '@fortawesome/free-brands-svg-icons';
-
 const Donate = () => {
   return (
     <section
@@ -22,8 +14,8 @@ const Donate = () => {
             alt='Sheep in a field'
           />
         </div>
-        <div className='flex flex-col justify-center py-8 md:max-w-xl lg:max-w-lg'>
-          <h2 className='pb-16 text-3xl font-bold leading-normal md:text-4xl md:leading-loose'>
+        <div className='flex w-full flex-col justify-center py-8 md:max-w-xl md:py-0 lg:max-w-lg'>
+          <h2 className='pb-16 text-3xl font-bold leading-normal md:text-4xl md:leading-relaxed'>
             myFlock is free and will always be free
           </h2>
           <h1 className='pb-16 text-lg font-bold leading-relaxed md:text-xl'>
