@@ -7,6 +7,7 @@ const Footer = () => {
         <img
           src='../src/assets/invertedVBDLogo.png'
           className='w-32 self-center'
+          alt='VBDesigns logo'
         />
         <span className='text-sm'>MyFlock by VBDesigns &copy; 2024</span>
       </div>
@@ -21,7 +22,7 @@ const Footer = () => {
         </a>
         <a
           className='text-white focus:text-current'
-          href='mailto:vbdesignsapps@gmail.com'
+          href='mailto:vbdesignapps@gmail.com'
         >
           Contact Us
         </a>

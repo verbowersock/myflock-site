@@ -14,7 +14,11 @@ const Navbar = () => {
 
   return (
     <div className='mx-auto flex flex-row justify-center py-6 shadow-sm md:justify-between md:space-x-4 md:px-8 lg:justify-start lg:space-x-8 lg:px-20'>
-      <img src='../src/assets/logo.png' className='w-48 md:pr-6 lg:pr-10' />
+      <img
+        src='../src/assets/logo.png'
+        className='w-48 md:pr-6 lg:pr-10'
+        alt='myflock logo'
+      />
       <NavLink id='overview' text='Overview' open={isMenuOpen} />
       <NavLink id='features' text='Features' open={isMenuOpen} />
       <NavLink id='support' text='Support Us' open={isMenuOpen} />

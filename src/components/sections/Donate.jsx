@@ -19,6 +19,7 @@ const Donate = () => {
           <img
             src='../src/assets/donate.jpg'
             className=' max-w-sm sm:max-w-md'
+            alt='Sheep in a field'
           />
         </div>
         <div className='flex flex-col justify-center py-8 md:max-w-xl lg:max-w-lg'>
@@ -46,7 +47,7 @@ const Donate = () => {
             </a>
             <p>or</p>
             <a
-              href='https://paypal.me/vbdesigns'
+              href='https://paypal.me/vkavun'
               target='_blank'
               rel='noopener noreferrer'
               className='flex w-52 items-center justify-center rounded-md bg-myflockPurple px-2 py-2 text-sm font-medium text-white shadow-lg transition duration-300 ease-in-out hover:bg-yellow-600'
@@ -56,40 +57,6 @@ const Donate = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div className='flex flex-row items-center justify-center gap-6 py-12 align-middle'>
-        <a
-          href='https://www.facebook.com/sharer/sharer.php?u=https://yourwebsite.com'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='text-md flex items-center justify-center rounded-md bg-blue-600 px-2 py-2 text-white shadow-md shadow-slate-500 hover:shadow-none'
-        >
-          <FontAwesomeIcon icon={faFacebook} />
-        </a>
-        <a
-          href='https://twitter.com/intent/tweet?url=https://yourwebsite.com'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='text-md flex items-center justify-center rounded-md bg-black px-2 py-2 text-white shadow-md shadow-slate-500 hover:shadow-none'
-        >
-          <FontAwesomeIcon icon={faXTwitter} />
-        </a>
-        <a
-          href='https://www.linkedin.com/shareArticle?mini=true&url=https://yourwebsite.com'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='text-md flex items-center justify-center rounded-md bg-blue-800 px-2 py-2 text-white shadow-md shadow-slate-500 hover:shadow-none'
-        >
-          <FontAwesomeIcon icon={faLinkedin} />
-        </a>
-        <a
-          href='https://pinterest.com/pin/create/button/?url=https://yourwebsite.com&media=&description='
-          target='_blank'
-          rel='noopener noreferrer'
-          className='text-md flex items-center justify-center rounded-md bg-red-600 px-2 py-2 text-white shadow-md shadow-slate-500 hover:shadow-none'
-        >
-          <FontAwesomeIcon icon={faPinterest} />
-        </a>
       </div>
     </section>
   );

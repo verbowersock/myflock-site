@@ -45,7 +45,11 @@ const Features = () => {
       </section>
       <section className='flex w-full flex-col-reverse items-center justify-between gap-6 pt-20 lg:flex-row'>
         <div className='flex w-full justify-center md:w-1/2'>
-          <img src='../src/assets/mockup.png' className='w-[500px]' />
+          <img
+            src='../src/assets/mockup.png'
+            className='w-[500px]'
+            alt='myflock app mockup'
+          />
         </div>
         <div className='flex w-full flex-col items-center md:w-2/3 md:px-0 lg:w-1/2'>
           <h2 className='text-left text-3xl font-bold leading-normal md:text-4xl md:leading-normal lg:text-5xl lg:leading-normal'>

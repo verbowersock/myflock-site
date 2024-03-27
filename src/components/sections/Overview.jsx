@@ -12,6 +12,7 @@ const Overview = () => {
       <img
         src='../src/assets/sheep3.jpg'
         className='w-full self-center py-12 lg:w-3/5 lg:py-24'
+        alt='happy sheep photo'
       />
       <section className='w-full md:w-4/5 lg:w-2/5'>
         <h3 className='self-start pb-6 text-lg font-bold text-white md:text-xl'>

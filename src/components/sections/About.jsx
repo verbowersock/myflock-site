@@ -25,15 +25,29 @@ const About = () => {
        lg:absolute lg:bottom-20  lg:left-[36rem] lg:mt-12 lg:w-3/5 xl:left-[42rem] '
       >
         <div className='flex w-full flex-col space-y-6'>
-          <img src='../src/assets/screenshot1.png' className='mt-20' />
+          <img
+            src='../src/assets/screenshot1.png'
+            className='mt-20'
+            alt='myflock app screnshot'
+          />
         </div>
         <div className='flex  w-full flex-col space-y-6 '>
-          <img src='../src/assets/sheep2.jpg' />
-          <img src='../src/assets/screenshot2.png' />
+          <img src='../src/assets/sheep2.jpg' alt='sheep photo' />
+          <img
+            src='../src/assets/screenshot2.png'
+            alt='myflock app screnshot'
+          />
         </div>
         <div className='w-full flex-col space-y-6'>
-          <img src='../src/assets/sheep1.jpg' className='mt-14' />
-          <img src='../src/assets/screenshot3.png' />
+          <img
+            src='../src/assets/sheep1.jpg'
+            className='mt-14'
+            alt='sheep photo'
+          />
+          <img
+            src='../src/assets/screenshot3.png'
+            alt='myflock app screnshot'
+          />
         </div>
       </div>
     </section>
