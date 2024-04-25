@@ -9,7 +9,9 @@ const Footer = () => {
           className='w-32 self-center'
           alt='VBDesigns logo'
         />
-        <span className='text-sm'>MyFlock by VBDesigns &copy; 2024</span>
+        <span className='text-sm'>
+          MyFlock - sheep management by VBDesigns &copy; 2024
+        </span>
       </div>
       <div className='flex flex-col items-center gap-6 pt-10 text-white md:items-end md:pt-0'>
         <a

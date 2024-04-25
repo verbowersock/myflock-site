@@ -17,7 +17,7 @@ const Navbar = () => {
       <img
         src='./assets/logo.png'
         className='w-48 md:pr-6 lg:pr-10'
-        alt='myflock logo'
+        alt='myflock sheep management app logo'
       />
       <NavLink id='overview' text='Overview' open={isMenuOpen} />
       <NavLink id='features' text='Features' open={isMenuOpen} />

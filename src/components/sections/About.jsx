@@ -9,12 +9,13 @@ const About = () => {
     >
       <div className='pt-16 lg:w-1/2 lg:pt-20 xl:w-2/5 xl:pl-20'>
         <h2 className='text-4xl font-bold leading-12 lg:text-5xl lg:leading-tight'>
-          myFlock is a free and easy to use app for hobby shepherds
+          myFlock is a free and easy to use sheep management app for hobby
+          shepherds
         </h2>
 
         <h3 className='pb-8 pt-6 text-lg'>
-          Simple and efficient tool to manage your sheep flock data without any
-          unnecessary extras
+          Simple and efficient sheep record keeping tool to manage your flock
+          data without any unnecessary extras
         </h3>
         <div className='flex w-full flex-row items-center justify-center lg:justify-start'>
           <DownloadButton />
@@ -33,11 +34,17 @@ const About = () => {
         </div>
         <div className='flex  w-full flex-col space-y-6 '>
           <img src='./assets/sheep2.jpg' alt='sheep photo' />
-          <img src='./assets/screenshot2.png' alt='myflock app screnshot' />
+          <img
+            src='./assets/screenshot2.png'
+            alt='myflock sheep management app screnshot'
+          />
         </div>
         <div className='w-full flex-col space-y-6'>
           <img src='./assets/sheep1.jpg' className='mt-14' alt='sheep photo' />
-          <img src='./assets/screenshot3.png' alt='myflock app screnshot' />
+          <img
+            src='./assets/screenshot3.png'
+            alt='myflock sheep management app screnshot'
+          />
         </div>
       </div>
     </section>

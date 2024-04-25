@@ -12,17 +12,17 @@ const Overview = () => {
       <img
         src='./assets/sheep3.jpg'
         className='w-full self-center py-12 lg:w-3/5 lg:py-24'
-        alt='happy sheep photo'
+        alt='happy sheep photo myflock sheep management app'
       />
       <section className='w-full md:w-4/5 lg:w-2/5'>
         <h3 className='self-start pb-6 text-lg font-bold text-white md:text-xl'>
-          This app was created because there was nothing comparable on the
-          market
+          This sheep management app was created because there was nothing
+          comparable on the market
         </h3>
         <div className='self-start text-base text-white md:text-xl'>
           Our mission is to provide hobby shepherds with a user-friendly and
-          straightforward tool to effortlessly manage their flock without any
-          unnecessary features or complications.
+          straightforward record keeping tool to effortlessly manage their flock
+          without any unnecessary features or complications.
         </div>
       </section>
     </section>

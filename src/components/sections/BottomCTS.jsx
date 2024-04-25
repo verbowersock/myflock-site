@@ -12,10 +12,11 @@ const BottomCTS = () => {
           Get started with myFlock today
         </h2>
         <p className='py-12 text-center text-xl text-neutral-100'>
-          Welcome to myFlock - the free app designed for hobby sheep keepers to
-          easily manage their flock by tracking important dates, health records,
-          and individual sheep profiles. Prioritizing data privacy, myFlock
-          offers simple tools for efficient flock management.
+          Welcome to myFlock - the free sheep management app designed for hobby
+          sheep keepers to easily manage their flock by tracking important
+          dates, health records, and individual sheep profiles. Prioritizing
+          data privacy, myFlock app offers simple tools for efficient flock
+          management.
         </p>
         <DownloadButton />
       </div>

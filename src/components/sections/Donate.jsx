@@ -11,7 +11,7 @@ const Donate = () => {
           <img
             src='./assets/donate.jpg'
             className=' max-w-sm sm:max-w-md'
-            alt='Sheep in a field'
+            alt='Sheep in a field myflock sheep management app'
           />
         </div>
         <div className='flex w-full flex-col justify-center py-8 md:max-w-xl md:py-0 lg:max-w-lg'>
@@ -22,10 +22,11 @@ const Donate = () => {
             And we intend to keep it that way
           </h1>
           <p className='pb-16 text-lg leading-relaxed md:text-xl'>
-            This app was created for hobbyists like you. Your support helps us
-            keep it free for all users. If you like the app, please consider
-            making a donation to support its development. We appreciate your
-            support and will use it to keep myFlock free and up-to-date.
+            This sheep management app was created for hobbyists like you. Your
+            support helps us keep it free for all users. If you like the myFlock
+            app, please consider making a donation to support its development.
+            We appreciate your support and will use it to keep myFlock free and
+            up-to-date.
           </p>
           <div className='flex flex-row items-center justify-center gap-6 align-middle'>
             <a

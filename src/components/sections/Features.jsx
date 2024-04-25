@@ -5,7 +5,8 @@ const Features = () => {
     <section id='features' className='mx-auto max-w-[1200px] px-8'>
       <section className='flex flex-col items-center pt-20'>
         <h2 className='w-full text-center text-3xl font-bold leading-relaxed md:w-3/4 md:text-4xl lg:w-1/2'>
-          No more searching for the right app to keep track of your flock
+          No more searching for the right sheep record keeping app to keep track
+          of your flock
         </h2>
 
         <div className='lg:h-62 flex w-full flex-col pt-16 lg:flex-row'>
@@ -48,7 +49,7 @@ const Features = () => {
           <img
             src='./assets/mockup.png'
             className='w-[500px]'
-            alt='myflock app mockup'
+            alt='myflock sheep management app screnshot'
           />
         </div>
         <div className='flex w-full flex-col items-center md:w-2/3 md:px-0 lg:w-1/2'>
