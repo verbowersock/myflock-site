@@ -28,7 +28,7 @@ const Donate = () => {
             We appreciate your support and will use it to keep myFlock free and
             up-to-date.
           </p>
-          <div className='flex flex-row items-center justify-center gap-6 align-middle'>
+          <div className='flex flex-row items-center gap-6 align-middle'>
             <a
               href='https://www.buymeacoffee.com/vbdesigns'
               target='_blank'
